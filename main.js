@@ -1,6 +1,3 @@
-﻿// This is a JavaScript file.
-// You can add your JavaScript code here if needed.
-// JavaScript code to make the navbar sticky
 window.onscroll = function () {
     makeNavbarSticky();
 };
