@@ -1,30 +1,17 @@
-﻿body {
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: ghostwhite;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
 nav a {
     display: inline-block;
     padding: 10px 20px;
-    text-decoration: none;
-    background-color: green;
-    color: #fff;
-    border-radius: 4px;
-}
-* {
-    margin: 0;
-    padding: 0;
 }
 
 .header {
@@ -46,9 +33,9 @@ nav a {
     width: 150px;
 }
 
-    .logo img {
-        width: 100px;
-    }
+.logo img {
+    width: 100px;
+}
 
 .icons {
     text-align: center;
@@ -61,12 +48,12 @@ nav a {
     margin: 0 15px;
 }
 
-    .header a:hover {
-        color: rgb(0, 0, 0);
-    }
+.header a:hover {
+    color: rgb(0, 0, 0);
+}
 
 .navbar {
-    background-color: #216730;
+    background-color: #0e7023;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -89,16 +76,16 @@ nav a {
     text-decoration: none;
 }
 
-    .navbar a:hover {
-        background-color: #88ad77;
-        color: rgb(0, 0, 0);
-        text-decoration: underline;
-    }
+.navbar a:hover {
+    background-color: #88ad77;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
 
-    .navbar a.current {
-        background-color: #ddd;
-        color: black;
-    }
+.navbar a.current {
+    background-color: #ddd;
+    color: black;
+}
 
 .holo {
     background: url('../images/kdc\ training.jpg') no-repeat center center;
@@ -160,12 +147,12 @@ footer a {
     margin: 5px;
 }
 
-    footer a:hover {
-        text-decoration: underline;
-    }
-  
-  
-    nav a:hover {
-        background-color: #666;
-    }
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+nav a:hover {
+    background-color: #666;
+}
 
