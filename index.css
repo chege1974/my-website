@@ -5,7 +5,7 @@
     background-size: 100% 100%;
 }
 
-/* Dropdown menu styles */
+/* Dropdown menu styles
 .dropdown {
     overflow: hidden;
 }
@@ -40,7 +40,7 @@
 
 .dropdown-item:hover {
     background-color: #f1f1f1;
-}
+} */
 
 .home-image-container {
     display: flex;
