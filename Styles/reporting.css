@@ -51,9 +51,9 @@ input[type="submit"] {
 }
 
     /* Change button color on hover */
-    input[type="submit"]:hover {
-        background-color: #0056a8;
-    }
+input[type="submit"]:hover {
+    background-color: #0056a8;
+}
 
 /* Style the organization name label */
 .org-name-label {
@@ -74,8 +74,8 @@ input[type="submit"] {
     color: #333; /* Text color for select */
 }
 
-    /* Style the select options */
-    .org-name-select option {
-        background-color: #fff; /* Background color for options */
-        color: #333; /* Text color for options */
-    }
+/* Style the select options */
+.org-name-select option {
+    background-color: #fff; /* Background color for options */
+    color: #333; /* Text color for options */
+}
