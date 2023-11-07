@@ -1,1 +1,16 @@
-﻿
+﻿#media-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#media-img {
+    max-width: 100%;
+    height: 400px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+#caption {
+    margin-top: 10px;
+    font-size: 18px;
+}
