@@ -69,7 +69,7 @@ nav a {
     display: none;
     position: absolute;
     min-width: 200px;
-    background-color: #0e7023;
+    background-color: #8a9bbe;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -114,7 +114,7 @@ nav a {
 }
 
 .navbar a:hover {
-    background-color: #88ad77;
+    background-color: #8a9bbe;
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
