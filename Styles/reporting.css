@@ -2,8 +2,8 @@
     height: 100vh;
     width: 75vw;
     margin: auto;
-    box-shadow: 10px 10px 5000px green;
-    background-color: rgb(195, 229, 197);
+    box-shadow: 10px 10px 5000px rgb(0, 30, 128);
+    background-color: rgb(195, 211, 229);
 }
 
     .card h2 {

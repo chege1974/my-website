@@ -16,7 +16,7 @@ nav a {
 
 .header {
     background-color: #29578f;
-    color: white;
+    /* color: white; */
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -69,7 +69,8 @@ nav a {
     display: none;
     position: absolute;
     min-width: 200px;
-    background-color: #8a9bbe;
+    background-color: rgb(195, 211, 229);
+    color: #333;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -80,7 +81,7 @@ nav a {
 
 .dropdown-content a {
     float: none;
-    color: white;
+    color: #333;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -114,7 +115,7 @@ nav a {
 }
 
 .navbar a:hover {
-    background-color: #8a9bbe;
+    background-color: rgb(195, 211, 229);
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
