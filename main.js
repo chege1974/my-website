@@ -99,4 +99,35 @@ document.addEventListener('DOMContentLoaded', function() {
     orgLevelSelect.addEventListener('change', populateOrgNames);
     reportingPeriodSelect.addEventListener('change', populateCriteria);
 });
-  
+
+
+          // image switching function on the index.html and media.html page
+
+window.onload = function () {
+    const mediaImg = document.getElementById("media-img");
+    const caption = document.getElementById("caption");
+
+    // remember to edit the caption for the pictures inserted
+    const images = [
+        { src: "./images/hero.jpg", caption: "text goes here" },
+        { src: "./images/kdc training.jpg", caption: "text goes here" },
+        { src: "./images/npccback.jpg", caption: "text goes here" },
+        { src: "./images/CMA.jpg", caption: "text goes here" },
+    ];
+
+    let currentImageIndex = 0;
+
+    function switchImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        mediaImg.style.opacity = 0;
+        setTimeout(function () {
+            mediaImg.style.backgroundImage = `url(${images[currentImageIndex].src})`;
+            caption.textContent = images[currentImageIndex].caption;
+            mediaImg.style.opacity = 1;
+        }, 500);
+    }
+    setInterval(switchImage, 4000);
+    if (window.location.pathname.includes('/index.html')) {
+        switchImage();
+    }
+};

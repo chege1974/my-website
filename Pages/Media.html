@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>Media center</title>
-    <link rel="stylesheet" href="../Styles/styles.css">
-    <link rel="stylesheet" href="../Styles/Media.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/styles.css">
+
 </head>
 <body>
     <header class="header">
@@ -29,7 +29,7 @@
             <a href="../index.html" class="dropdown-item">Home</a>
             <div class="dropdown-content">
                 <a style="text-align:left;" href="#">Why productivity?</a>
-            </div>   
+            </div>
         </div>
 
         <div class="dropdown">
@@ -65,38 +65,7 @@
     <main>
         <h1>Media centre</h1>
         <p>This is the media centre page of our website.</p>
-
-        <div id="media-container">
-            <img id="media-img" src="../images/npccback.jpg" alt="Image 1">
-            <p id="caption">Caption for Image 1</p>
-
-        </div>
-
-        <script>
-            const mediaImg = document.getElementById("media-img");
-            const caption = document.getElementById("caption");
-
-            // remember to edit the caption for the pictures inserted
-        const images = [
-           {src: "../images/CMA.jpg", caption: "text goes here"},
-           {src: "../images/coa.png", caption: "text goes here"},
-           {src: "../images/hero.jpg",caption: "text goes here"},
-        ];
-
-        let currentImageIndex = 0;
-
-        function switchImage() {
-            currentImageIndex = (currentImageIndex + 1) % images.length;
-            mediaImg.style.opacity = 0;
-            setTimeout(function () {
-            mediaImg.src = images[currentImageIndex].src;
-            caption.textContent = images[currentImageIndex].caption;
-                mediaImg.style.opacity = 1;
-            }, 500);
-            }
-        setInterval(switchImage, 5000);
-        </script>
-        
+       
     </main>
 
     <footer>
@@ -105,5 +74,6 @@
             <p>Contact: productivitycentre@labour.go.ke</p>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
