@@ -110,7 +110,7 @@ window.onload = function () {
     // remember to edit the caption for the pictures inserted
     const images = [
         { src: "./images/hero.jpg", caption: "text goes here" },
-        { src: "./images/kdc training.jpg", caption: "text goes here" },
+        { src: "./images/kdc.jpg", caption: "text goes here" },
         { src: "./images/npccback.jpg", caption: "text goes here" },
         { src: "./images/CMA.jpg", caption: "text goes here" },
     ];
