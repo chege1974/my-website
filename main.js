@@ -126,7 +126,7 @@ window.onload = function () {
             mediaImg.style.opacity = 1;
         }, 500);
     }
-    setInterval(switchImage, 4000);
+    setInterval(switchImage, 6000);
     if (window.location.pathname.includes('/index.html')) {
         switchImage();
     }
